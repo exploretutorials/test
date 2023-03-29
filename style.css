@@ -10,6 +10,7 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
+
 }
 
 :root {
@@ -43,7 +44,7 @@ body {
 }
 
 .heading {
-  text-align: center;
+  text-align: right;
 }
 
 .heading h2 {
@@ -174,24 +175,28 @@ header.shadow {
 }
 
 
+
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   margin-top: 2rem;
+  left: -20px;
 }
 
 .about-img img {
   width: 80%;
   border-radius: 0.5rem;
+  left: -20px;
 }
 
 .about-text p {
 
   font-weight: 400;
-  text-align: left;
+  text-align: justify;
   position: relative;
-  left: -350px;
+  left: -20px;
+  font-size: 16px;
 
 }
 
@@ -204,7 +209,7 @@ header.shadow {
   align-items: center;
   margin-bottom: 1.4rem;
   position: relative;
-  left: -350px;
+  left: -20px;
 }
 
 .aboutbtn {
@@ -214,7 +219,7 @@ header.shadow {
   padding: 0.7rem 1.3rem;
   border-radius: 0.5rem;
   position: relative;
-  left: -350px;
+  left: -20px;
 }
 
 .information .info-box .bx {
